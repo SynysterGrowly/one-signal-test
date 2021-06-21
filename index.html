@@ -8,9 +8,20 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+        OneSignal.init({
+          appId: "70dc1820-24ab-49a9-b316-06f8ae761fc3",
+        });
+      });
+    </script>
+
     <title>One Signal Data!</title>
   </head>
   <body>
+
     <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript -->
